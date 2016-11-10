@@ -1,0 +1,310 @@
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+}
+body,ul,li,ol{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+*{
+    box-sizing: border-box ;
+}
+body{
+    background: #ebebeb;
+}
+
+.header{
+    height: 236px;
+    background: #f4645f;
+
+    padding-top: 57px;
+    background: url("../img/44e1c4e50d55159c65da6a41bc07e.jpg");
+    background-position: center 20%;
+    background-size: cover;
+}
+
+.header .main-title{
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.header .btn-list{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.btn {
+    color: white;
+    border: 1px solid #f1362f;
+    border-radius: 2px;
+    padding: 7px 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-download{
+    background: #f4645f;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.btn-read{
+    background: #f4645f;
+}
+
+.btn:hover{
+    border: 1px solid #303030;
+    background: #303030;
+}
+
+.nav{
+    height: 56px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li.active{
+    border-bottom: 2px solid #f4645f;
+}
+.nav li a{
+    line-height: 56px;
+    padding: 0 21px;
+    color: #505050;
+}
+.nav li:hover a{
+    color: #f4645f;
+}
+
+.main{
+    margin-top: 35px;
+
+}
+
+.main .container{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .article-list{
+    width: 63.66%;
+    float: left;
+    margin-right: 3%;
+}
+
+.main .article{
+    background: #fff;
+    padding: 35px;
+    margin-bottom: 35px;
+
+}
+
+.main .article .title{
+    font-size: 2.0em;
+    line-height: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+.main .article .title a{
+    color: inherit;
+}
+.main .article .meta{
+    color: #959595;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main .article .meta .author{
+
+}
+
+.main .article .meta .date{
+
+}
+
+.main .article .image img{
+    width: 100%;
+}
+
+.main .article .desc{
+    font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+    color: #444443;
+    margin: 30px 0;
+}
+
+.main .article .read{
+    height: 32px;
+}
+
+.main .article .line{
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .article-list .pager{
+    margin: 30px 0;
+    text-align: center;
+
+}
+
+.main .article-list .page-number,.main .article-list .next{
+    background: #f4645f;
+    padding: 10px 16px;
+    color: #fff;
+    border-radius: 2px;
+}
+.main .widget-list{
+    width: 33.33%;
+    float: left;
+}
+
+.main .widget{
+    padding: 21px 30px;
+    margin-bottom: 35px;
+    background: #fff;
+
+}
+
+.main .widget .tag{
+    display: inline-block;
+    color: rgb(149,149,149);
+    border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.main .widget .tag:hover{
+    background: #f4645f;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.main .widget .link{
+    display: block;
+    line-height: 50px;
+    color: #f4645f;
+}
+.main .widget .link a{
+    color:inherit;
+}
+.main .widget .title{
+    font-size: 21px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+.main .widget .title:after{
+    content: " ";
+    height: 1px;
+    width: 90px;
+    background: #f4645f;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.footer{
+    height: 363px;
+    background: #202020;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.footer .container{
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .container .item{
+    height: 300px;
+    width: 27%;
+}
+
+.footer .title{
+    color: white;
+    font-size: 21px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #303030;
+    position: relative;
+}
+
+.footer .title:after{
+    content: " ";
+    height: 1px;
+    width: 90px;
+    background: #f4645f;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.footer .article{
+    margin-top: 14px;
+    height: 62px;
+    border-bottom: 1px dashed #303030;
+}
+.footer .article .article-title{
+    color: #959595;
+    line-height: 30px;
+}
+.footer .article .date{
+    color: #505050;
+    line-height: 20px;
+}
+
+.footer .item .tag{
+    display: inline-block;
+    color: rgb(149,149,149);
+    border: 1px solid rgb(149,149,149);
+    padding: 2px 7px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.footer .item .tag:hover{
+    background: #f4645f;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.footer .link-group{
+    border-bottom: 1px dashed  #303030;
+
+    padding: 10px 0;
+}
+
+
+.footer .link-group .link{
+    color: rgb(149,149,149);
+    display: inline-block;
+    padding: 2px 7px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.footer .link-group .link:hover{
+    background: #f4645f;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.copyright{
+    height: 60px;
+    background: #111;
+    text-align: center;
+    line-height:  60px;
+    color: #555555;
+}
+.copyright a{
+    color: inherit;
+}
